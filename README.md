@@ -1,8 +1,5 @@
 # VMemNet
 Video memorability measures the degree to which a video is remembered by different viewers and has shown great potential in various contexts, including advertising, education, and healthcare. Although image memorability has been well studied, research on video memorability is still in its early stages. Current methods have mostly focused on simple feature representation or decision fusion strategies, which neglect the interactions between the spatial and temporal domains. To tackle this issue, we introduce an end-to-end collaborative spatial-temporal network (VMemNet) for video memorability prediction. Specifically, VMemNet incorporates spatial and semantic-guided attention modules to model static local cues and dynamic global cues in videos, respectively. VMemNet integrates the spatial and semantic-guided attention modules by a dual-stream network architecture to simultaneously capture static local cues and dynamic global cues in videos. Specifically, the spatial attention module is to aggregate more memorable elements from spatial locations whereas the semantic-guided attention module is to achieve semantic alignment and intermediate fusion of local cues and global cues. Moreover, two types of loss functions with complementary decision rules are associated with corresponding attention modules to guide the training of the proposed network. Experimental results conducted on a publicly available dataset verify the effectiveness of the proposed VMemNet for video memorability prediction.
-<p align="center">
-  <img src="images/VMemNet.jpg" width="800"/>
-</p>
 
 
 ## Requiremenets
