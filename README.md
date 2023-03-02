@@ -19,15 +19,15 @@ Video memorability measures the degree to which a video is remembered by differe
 To ensure that the code runs successfully, please arrange the folder according to the following structure:
 ```
 ./VMemNet
-    ../list
-    ../prediction
-    ../checkpoint
+    ../list/
+    ../prediction/
+    ../checkpoint/
 
 ./VideoMem
-    ../source
-    ../frames
-    ../dynamic-vectors
-    ../ground-truth_dev-set
+    ../source/
+    ../frames/
+    ../dynamic-vectors/
+    ../ground-truth_dev-set.csv
 ```
 ### Prepare keyframe
 The VMemNet needs keyframes to extract static local features. Modify the dataset path in the `video_frame_prepare.py` before running:
