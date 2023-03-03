@@ -19,6 +19,8 @@ To ensure that the code runs successfully, please arrange the folder according t
     ../list/
     ../prediction/
     ../checkpoint/
+    ../test.py
+    ...
 
 ./VideoMem
     ../source/
