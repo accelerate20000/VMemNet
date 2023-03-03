@@ -41,6 +41,11 @@ def choose_fold(which_fold):
 
     if which_fold==2:
         checkpoint = './checkpoint_fold2_rc_0.5148327401644722.pth.tar'
+        seed = 10
+        torch.manual_seed(seed)
+        np.random.seed(seed)
+        random.seed(seed)
+        torch.cuda.manual_seed(seed)
 
     if which_fold==3:
         checkpoint = './checkpoint_fold3_rc_0.5206630396687968.pth.tar'
@@ -56,6 +61,11 @@ def choose_fold(which_fold):
 
     if which_fold==7:
         checkpoint = './checkpoint_fold7_rc_0.5610508470133193.pth.tar'
+        seed = 10
+        torch.manual_seed(seed)
+        np.random.seed(seed)
+        random.seed(seed)
+        torch.cuda.manual_seed(seed)
 
     epochs_since_improvement = 0
     best_val = 0.
