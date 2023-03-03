@@ -40,14 +40,14 @@ Download the [dynamic-vectors](https://drive.google.com/file/d/1XoSB7Wg1JHDyT3iw
 Download the trained model to the `checkpoint` folder:
 | Test set | Model | RC | 
 | :---: | :---: | :---: |
-| Fold 0 | [GoogleDrive](https://drive.google.com/file/d/1YQSv49gHFX8vHbceCN3V1ivLPDekAUH2/view?usp=sharing)| 0.524 |
-| Fold 1 | [GoogleDrive](https://drive.google.com/file/d/16WQpbMKWL2YtByU37tFqeY0mzZN0QeM-/view?usp=sharing)| 0.518 |
-| Fold 2 | [GoogleDrive](https://drive.google.com/file/d/1QwuJWySKf_YYstI49KglDLcVGXARrOO5/view?usp=sharing)| 0.515 |
-| Fold 3 | [GoogleDrive](https://drive.google.com/file/d/1tQuu0GJB2JweG-EDKuL5uVL4AvgARcll/view?usp=sharing)| 0.521 |
-| Fold 4 | [GoogleDrive](https://drive.google.com/file/d/1lY9zVVRTwh3DIT46GVufLvoANM9R5Xd8/view?usp=sharing)| 0.517 |
-| Fold 5 | [GoogleDrive](https://drive.google.com/file/d/1Er7EcyXtB7I7WCCW4Dy10X06t3R1nL_C/view?usp=sharing)| 0.540 |
-| Fold 6 | [GoogleDrive](https://drive.google.com/file/d/1Vu8EVwjazcPTpcgMTo0eodSZqu8orLJM/view?usp=sharing)| 0.535 |
-| Fold 7 | [GoogleDrive](https://drive.google.com/file/d/1XBnSzh-aJF8nxewouJBYlgnONCq-JnYF/view?usp=sharing)| 0.561 |
+| Fold 0 | [GoogleDrive](https://drive.google.com/file/d/1XbIVw4DFNxyJXxGi7HD94X2Jl0x55wSo/view?usp=sharing)| 0.524 |
+| Fold 1 | [GoogleDrive](https://drive.google.com/file/d/1Jmv_rvFvYkokuXMxrGZMLfxj2CuDO8m_/view?usp=sharing)| 0.518 |
+| Fold 2 | [GoogleDrive](https://drive.google.com/file/d/16AUUxy2y1dYND57wBQH9_XdJJ5MKmxot/view?usp=sharing)| 0.515 |
+| Fold 3 | [GoogleDrive](https://drive.google.com/file/d/1z1_GIdWI7NPKl1SXRCM1BP_3JSN0Cy-p/view?usp=sharing)| 0.521 |
+| Fold 4 | [GoogleDrive](https://drive.google.com/file/d/1z4GOvELD-nfU6i0MdmVtt7qDU2gXTuqX/view?usp=sharing)| 0.517 |
+| Fold 5 | [GoogleDrive](https://drive.google.com/file/d/13FcLzgaD0FX9exAtVf9XlMExC4dyM5nV/view?usp=sharing)| 0.540 |
+| Fold 6 | [GoogleDrive](https://drive.google.com/file/d/1Qd1il6ek3CqpVtuN6FgAvTOHLmqn0OWc/view?usp=sharing)| 0.535 |
+| Fold 7 | [GoogleDrive](https://drive.google.com/file/d/1f2XoKOLwxdLLQEp9J1f-fJPInuOcHoAr/view?usp=sharing)| 0.561 |
 
 ### Testing
 Before testing, please modify the file path of the dataset in test.py:
