@@ -17,7 +17,6 @@ To ensure that the code runs successfully, please arrange the folder according t
 ```
 ./VMemNet
     ../list/
-    ../prediction/
     ../checkpoint/
     ../test.py
     ...
