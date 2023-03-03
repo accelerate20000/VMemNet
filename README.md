@@ -27,7 +27,7 @@ To ensure that the code runs successfully, please arrange the folder according t
     ../ground-truth_dev-set.csv
 ```
 ### Prepare keyframe
-The VMemNet needs keyframes to extract static local features. Modify the dataset path in the `video_frame_prepare.py` before running:
+The VMemNet needs keyframes to extract static local features. You may need modify the dataset path in the `video_frame_prepare.py` before running:
 ```
 python video_frame_prepare.py
 ```
@@ -49,7 +49,7 @@ Download the trained model to the `checkpoint` folder:
 | Fold 7 | [GoogleDrive](https://drive.google.com/file/d/1XBnSzh-aJF8nxewouJBYlgnONCq-JnYF/view?usp=sharing)| 0.561 |
 
 ### Testing
-Before testing, modify the file path of the dataset in test.py:
+Before testing, please modify the file path of the dataset in test.py:
 ```
 data_root_dir = '/media/Datasets/VideoMem/'
 ```
