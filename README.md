@@ -34,7 +34,7 @@ python video_frame_prepare.py
 ```
 
 ### Download dynamic features
-Download the [dynamic-vectors](https://drive.google.com/file/d/1XoSB7Wg1JHDyT3iwPfs5BRIWKwoNDKFc/view?usp=sharing) to the `Dataset` folder.
+Download the [dynamic-vectors](https://drive.google.com/file/d/1XoSB7Wg1JHDyT3iwPfs5BRIWKwoNDKFc/view?usp=sharing) to the `VideoMem` folder.
 
 ### Download trained model
 Download the trained model to the `checkpoint` folder:
