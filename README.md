@@ -50,9 +50,15 @@ Download the trained model to the `checkpoint` folder:
 | Fold 7 | [GoogleDrive](https://drive.google.com/file/d/1f2XoKOLwxdLLQEp9J1f-fJPInuOcHoAr/view?usp=sharing)| 0.561 |
 
 ### Testing
-Before testing, please modify the file path of the dataset in test.py:
+Before testing, you may need modify the file path of the dataset and testing fold in test.py:
 ```
 data_root_dir = '/media/Datasets/VideoMem/'
+```
+```
+for i in range(7, 8): # test the 7 fold
+    print('Starting fold-{0}\n\n'.format(i))
+    choose_fold(i)
+    print('Ending fold-{0}\n\n'.format(i))
 ```
 Then run:
 ```
