@@ -32,7 +32,7 @@ random_list = './list/train_random_list_0.bin'
 data_root_dir = '/media/Datasets/VideoMem/'
 
 def choose_fold(which_fold):
-    global epochs_since_improvement, checkpoint, start_epoch, fine_tune_encoder  # 全局变量。可以在函数外改变变量值
+    global epochs_since_improvement, checkpoint, start_epoch, fine_tune_encoder 
     if which_fold==0:
         checkpoint = './checkpoint_fold0_rc_0.5237312056529898.pth.tar'
 
@@ -41,11 +41,6 @@ def choose_fold(which_fold):
 
     if which_fold==2:
         checkpoint = './checkpoint_fold2_rc_0.5148327401644722.pth.tar'
-        seed = 10
-        torch.manual_seed(seed)
-        np.random.seed(seed)
-        random.seed(seed)
-        torch.cuda.manual_seed(seed)
 
     if which_fold==3:
         checkpoint = './checkpoint_fold3_rc_0.5206630396687968.pth.tar'
@@ -61,11 +56,7 @@ def choose_fold(which_fold):
 
     if which_fold==7:
         checkpoint = './checkpoint_fold7_rc_0.5610508470133193.pth.tar'
-        seed = 10
-        torch.manual_seed(seed)
-        np.random.seed(seed)
-        random.seed(seed)
-        torch.cuda.manual_seed(seed)
+
 
     epochs_since_improvement = 0
     best_val = 0.
