@@ -50,7 +50,7 @@ Download the trained model to the `checkpoint` folder:
 | Fold 7 | [GoogleDrive](https://drive.google.com/file/d/1f2XoKOLwxdLLQEp9J1f-fJPInuOcHoAr/view?usp=sharing)| 0.561 |
 
 ### Testing
-Before testing, you may need modify the file path of the dataset and testing fold in test.py:
+Before testing, you may need modify the file path of the dataset and testing fold in `test.py`:
 ```
 data_root_dir = '/media/Datasets/VideoMem/'
 ```
