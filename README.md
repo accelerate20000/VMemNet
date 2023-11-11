@@ -66,5 +66,5 @@ python test.py
 ```
 
 ## Citing VMemNet
-If you use this code or reference our paper in your work please cite this publication.
+If you use this code or reference our paper in your work please cite our paper:"VMemNet: A Deep Collaborative Spatial-Temporal Network With Attention Representation for Video Memorability Prediction," online version [VMemNet](https://ieeexplore.ieee.org/document/10298788).
 
