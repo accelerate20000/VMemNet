@@ -67,4 +67,7 @@ python test.py
 
 ## Citing VMemNet
 If you use this code or reference our paper in your work please cite our paper:"VMemNet: A Deep Collaborative Spatial-Temporal Network With Attention Representation for Video Memorability Prediction," online version [VMemNet](https://ieeexplore.ieee.org/document/10298788).
+```
+W. Lu, Y. Zhai, J. Han, P. Jing, Y. Liu and Y. Su, "VMemNet: A Deep Collaborative Spatial-Temporal Network With Attention Representation for Video Memorability Prediction," in IEEE Transactions on Multimedia, doi: 10.1109/TMM.2023.3327861.
+```
 
